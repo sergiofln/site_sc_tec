@@ -68,11 +68,38 @@
 
             <h2>Contato</h2>
 
-            <p>Tem um projeto em mente? Entre em contato.</p>
+            <p>Tem um projeto em mente? <br>Entre em contato.</p>
+
+            <form action="" method="POST">
+                <label for="name">Nome:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="_replyto" required><br><br>
+
+                <label for="telefone">Telefone:</label><br>
+                <input type="tel" id="telefone" name="telefone" required><br><br>
+
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="assunto">
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outro">Outro</option>
+                </select><br><br>
+
+                <label for="message">Mensagem:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                <input type="checkbox" id="inscricao" name="inscricao" value="sim">
+                <label for="inscricao">Desejo me inscrever na newsletter</label><br><br>
+
+
+                <button type="submit">Enviar Mensagem</button><br><br><br><br>
+            </form>
 
             <address>
                 E-mail: <a href="mailto:sergio@slvirtual.com.br">Sergio@slvirtual.com.br</a> <br>
-                Telefone: <a href="tel:+55489997677776">48 9 99767-7776</a>
+                Telefone: <a href="tel:+55259997677776">25 9 99767-7776</a><br><br><br><br><br><br><br><br>
             </address>
 
         </section>
