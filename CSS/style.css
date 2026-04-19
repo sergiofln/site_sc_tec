@@ -1,3 +1,26 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 p {
     color: red;
+}
+
+h1 {
+    color: blue;
+}
+
+div {
+    height: 200px;
+    color: green;
+}
+
+#paragrafo_3{
+    color: orange;
+}
+
+.negrito{
+    font-weight: bold;
 }
